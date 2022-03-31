@@ -1,4 +1,3 @@
-
 package AAAA_PRACTISE;
 import java.util.*;
 
@@ -44,12 +43,17 @@ public class New {
 		sb.setCharAt(8, 'K');
 		System.out.println(sb);
 
-		System.out.println(s.equals(sb.toString())); // ------------returns integer(0 or 1)
-		System.out.println(s.compareTo(sb.toString()));//----------returns (true or false)boolean value.
+		System.out.println(s.equals(sb.toString())); // ------------returns (true or false)boolean value.
+		System.out.println(s.compareTo(sb.toString()));//----------returns integer(0 or 1)
 		System.out.println(s.equalsIgnoreCase(sb.toString()));//----returns (true or false)boolean value but ignores(upper or lower)
 		String s1=sb.toString();
 		
 		System.out.println(s.concat(s1));
+		String[] a=new String[10] ;
+		System.out.println(sb);
+		a=sb.toString().split("----");
+		for(String i:a)
+		System.out.println(" "+i);
 
 		
 		
