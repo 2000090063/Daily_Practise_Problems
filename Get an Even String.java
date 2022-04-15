@@ -68,7 +68,7 @@ public class GetAnEvenString {
 					mp.clear();
 				}
 			}
-			System.out.println(ans);
+			System.out.println( ans);
 		}
 	}
 }
