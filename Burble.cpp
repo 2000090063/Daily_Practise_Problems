@@ -41,7 +41,7 @@ In the second test case, Vasya has only 1 burle coins, and he can collect either
 In the second test case, Vasya has only 2 burle coins, and he cannot pay 1 burle without change.
 In the fourth test case you don't have any coins, and he can't even pay 1 burle.
 
-*/
+*/ 
 //solution
 #include<bits/stdC++.h>
 using namespace std;
