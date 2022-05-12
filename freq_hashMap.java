@@ -28,7 +28,7 @@ class OccurenceOfNumberInArray {
 
 		// Printing the freqMap
 		for (Map.Entry entry : freqMap.entrySet()) {
-			System.out.println(entry.getKey() + " " + entry.getValue());
+			System.out.println( entry.getKey() + " " + entry.getValue());
 		}
 	}
 
